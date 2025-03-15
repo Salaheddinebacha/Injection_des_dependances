@@ -9,7 +9,7 @@
 <p>L'objectif est de montrer différentes manières d'instancier et d'injecter des dépendances en utilisant et en évitant l'utilisation de new, et en passant par Class.forName(), la configuration XML de Spring et enfin les annotations.</p>
 
 <h3>Structure du Projet</h3>
-<img src="Capture/structure.png">
+<img src="Capture/Structure.png">
 <ul>
     <li>Avant l'injection des dépendances : utilisation de `new` pour instancier les objets.</li>
     <li>Remplacement de `new` par `Class.forName()` pour éviter le couplage fort.</li>
